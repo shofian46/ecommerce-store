@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import Container from "@/components/ui/container";
 import useCart from "@/hooks/use-cart";
-import CartItem from "@/app/(routes)/cart/components/cart-items";
-import Summary from "@/app/(routes)/cart/components/summary";
+import CartItem from "./components/cart-items";
+import Summary from "./components/summary";
 
 const CartPage = () => {
   const cart = useCart();
